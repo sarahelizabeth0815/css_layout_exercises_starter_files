@@ -1,0 +1,50 @@
+main {
+    padding: 30px;
+	font-size: 0;
+}
+
+.container-main {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.upper {
+	width: 50%;
+	height: 200px;
+	display: inline-block;
+}
+
+.upper-left {
+	background-color: green;
+	border: 1px black solid;
+}
+
+.upper-right {
+	background-color: blue;
+	border: 1px black solid;
+}
+
+.lower {
+	width: 33.33%;
+	height: 300px;
+	display: inline-block;
+}
+
+.lower-left {
+	background-color: gray;
+	border: 1px black solid;
+}
+
+.lower-middle {
+	background-color: black;
+	border: 1px black solid;
+}
+
+.lower-right {
+	background-color: darkgoldenrod;
+	border: 1px black solid;
+}
+
+
+
