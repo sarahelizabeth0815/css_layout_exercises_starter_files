@@ -29,21 +29,19 @@ main {
 	width: 33.33%;
 	height: 300px;
 	display: inline-block;
+	border: 1px black solid;
 }
 
 .lower-left {
 	background-color: gray;
-	border: 1px black solid;
 }
 
 .lower-middle {
 	background-color: black;
-	border: 1px black solid;
 }
 
 .lower-right {
 	background-color: darkgoldenrod;
-	border: 1px black solid;
 }
 
 
