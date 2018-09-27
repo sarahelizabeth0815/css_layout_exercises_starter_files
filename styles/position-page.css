@@ -11,6 +11,15 @@ nav img {
 	height: 75%;
 	border-radius: 50%;
 	border: 1px black solid;
+	vertical-align: middle;
+	margin-top: 5px;
+	margin-bottom: 5px; 
+}
+
+nav ul {
+	display: inline;
+	list-style: none;
+	vertical-align: middle;
 }
 
 nav ul li {
@@ -20,8 +29,17 @@ nav ul li {
 	padding-right: 5px;
 }
 
+body {
+  background: url(../images/outerspace_landscape.jpeg) no-repeat;
+  background-size: cover;
+}
+
 main {
-	display: block;
+	padding-top: 90px;
+	min-width: 1000px;
+}
+
+.box {
 	margin-left: auto;
 	margin-right: auto;
 	width: 600px;
@@ -31,19 +49,17 @@ main {
 	top: 200px;
 }
 
-main img {
-	height: 200px;
+.spacecat, .spacedog {
+	position: absolute;
 	width: 200px;
 }
 
-.space-cat {
-	position: absolute;
+.spacecat {
 	left: -50px;
 	top: -100px;
 }
 
-.space-dog {
-	position: absolute;
+.spacedog {
 	right: -50px;
 	bottom: -100px;
 }

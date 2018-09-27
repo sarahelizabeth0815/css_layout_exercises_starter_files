@@ -10,3 +10,16 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
+
+.nebula-one, .nebula-two {
+	width: 200px;
+	padding: 10px;
+}
+
+.nebula-one {
+	float: left;
+}
+
+.nebula-two {
+	float: right;
+}
